@@ -1,10 +1,10 @@
 class Vol < Formula
   desc "Universal build tool with beautiful terminal output"
   homepage "https://github.com/pluttan/volumes"
-  url "https://github.com/pluttan/volumes/releases/download/v2.0.0/vol"
-  sha256 "b282b4dd6423a03c97e45adb8f12a5858d52218f9df150a7f860e0021f98cbed"
+  url "https://github.com/pluttan/volumes/releases/download/v2.0.2/vol"
+  sha256 "dcc15064ae82e775d3d931934a8fca66551647000aa5e945f1091c53dcf46756"
   license "MIT"
-  version "2.0.0"
+  version "2.0.2"
 
   def install
     bin.install "vol"
