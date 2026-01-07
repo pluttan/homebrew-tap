@@ -1,23 +1,23 @@
 class Vol < Formula
   desc "Universal build tool with beautiful terminal output"
   homepage "https://github.com/pluttan/volumes"
-  url "https://github.com/pluttan/volumes/releases/download/v2.0.23/vol"
-  sha256 "72379d90f0a3c3093dee36706de37deea75a874cd7df2049541fd71ce77b3835"
+  url "https://github.com/pluttan/volumes/releases/download/v2.0.24/vol"
+  sha256 "80b9cc42ab454cc404cb584866c75f3f7af483cd3a47ef39b83fc3460e1152cc"
   license "MIT"
-  version "2.0.23"
+  version "2.0.24"
 
   resource "zsh_completion" do
-    url "https://github.com/pluttan/volumes/releases/download/v2.0.23/_vol"
+    url "https://github.com/pluttan/volumes/releases/download/v2.0.24/_vol"
     sha256 "777cf012e308916efafacf2659eebf24f7d9c0a30f47f517631a51897978cffb"
   end
 
   resource "bash_completion" do
-    url "https://github.com/pluttan/volumes/releases/download/v2.0.23/vol.bash"
+    url "https://github.com/pluttan/volumes/releases/download/v2.0.24/vol.bash"
     sha256 "273cf4d4f942a6b7b568af2241077ddc38987a692fbebb5187118c4438441278"
   end
 
   resource "fish_completion" do
-    url "https://github.com/pluttan/volumes/releases/download/v2.0.23/vol.fish"
+    url "https://github.com/pluttan/volumes/releases/download/v2.0.24/vol.fish"
     sha256 "3006a4fab6cd9920173ede24b39eba383500cffe410019c3a6de1b99a8c8ccfd"
   end
 
