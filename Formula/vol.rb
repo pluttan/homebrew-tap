@@ -2,23 +2,23 @@ class Vol < Formula
   desc "Universal build tool with beautiful terminal output"
   homepage "https://github.com/pluttan/volumes"
   url "https://github.com/pluttan/volumes/releases/download/v2.0.18/vol"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "02fcd77be5dcd82f4148142956fead9914fa8ac572f5ed630010339a0eff4698"
   license "MIT"
   version "2.0.18"
 
   resource "zsh_completion" do
     url "https://github.com/pluttan/volumes/releases/download/v2.0.18/_vol"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "777cf012e308916efafacf2659eebf24f7d9c0a30f47f517631a51897978cffb"
   end
 
   resource "bash_completion" do
     url "https://github.com/pluttan/volumes/releases/download/v2.0.18/vol.bash"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "273cf4d4f942a6b7b568af2241077ddc38987a692fbebb5187118c4438441278"
   end
 
   resource "fish_completion" do
     url "https://github.com/pluttan/volumes/releases/download/v2.0.18/vol.fish"
-    sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    sha256 "3006a4fab6cd9920173ede24b39eba383500cffe410019c3a6de1b99a8c8ccfd"
   end
 
   def install
